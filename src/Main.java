@@ -1,16 +1,15 @@
 public class Main {
     static void main() {
 
-        String marque = "peugeot";
-        int modele =  208;
-        int année = 2021;
-        int prix = 14500;
+        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
 
-        System.out.println("marque : "+marque);
-        System.out.println("année : "+modele);
-        System.out.println("année : "+année);
-        System.out.println("prix : "+prix);
-        //
+        System.out.println("Marque : " + v1.marque);
+        System.out.println("Modèle : " + v1.modele);
+        System.out.println("Année : " + v1.annee);
+        System.out.println("Prix : " + v1.prix + "€");
+
+        v1.afficherDescription();
+
 
 
     }
