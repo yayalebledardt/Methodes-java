@@ -9,8 +9,10 @@ public class Main {
         System.out.println("Prix : " + v1.prix + "€");
 
         v1.afficherDescription();
-        v1.appliquerReduction10();
+
+        v1.appliquerReduction(30);
         v1.afficherDescription();
+
 
 
 
