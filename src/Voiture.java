@@ -19,7 +19,7 @@ public class Voiture {
         }
     public void appliquerReduction(double pourcentage){
         this.prix = this.prix - this.prix * (pourcentage * 0.01);
-
+        .
 
     }
 }

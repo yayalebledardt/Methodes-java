@@ -12,7 +12,7 @@ public class Main {
 
         v1.appliquerReduction(30);
         v1.afficherDescription();
-
+        .
 
 
 
